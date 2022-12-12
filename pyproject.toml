@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "climatereport_zillow"
-version = "0.1.62"
+version = "0.1.63"
 description = "Zillow listings do not contain a section on the environmental risk of the property. This package compiles a report on the climate risks of the property in the zillow listing."
 authors = ["Darci Kovacs"]
 license = "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License"

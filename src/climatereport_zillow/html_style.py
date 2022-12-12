@@ -38,6 +38,7 @@ def make_html_style():
         <ul>
           <li>Minimal: {minimal_heat} - {minimal_heat_percent}%</li>
           <li>Minor: {minor_heat} - {minor_heat_percent}%</li>
+          <li>Moderate: {moderate_heat} - {moderate_heat_percent}%</li>
           <li>Major: {major_heat} - {major_heat_percent}%</li>
           <li>Severe: {severe_heat} - {severe_heat_percent}%</li>
           <li>Extreme: {extreme_heat} - {extreme_heat_percent}%</li>
@@ -47,6 +48,7 @@ def make_html_style():
         <ul>
           <li>Minimal: {minimal_fire} - {minimal_fire_percent}%</li>
           <li>Minor: {minor_fire} - {minor_fire_percent}%</li>
+          <li>Moderate: {moderate_fire} - {moderate_fire_percent}%</li>
           <li>Major: {major_fire} - {major_fire_percent}%</li>
           <li>Severe: {severe_fire} - {severe_fire_percent}%</li>
           <li>Extreme: {extreme_fire} - {extreme_fire_percent}%</li>
@@ -56,6 +58,7 @@ def make_html_style():
         <ul>
           <li>Minimal: {minimal_flood} - {minimal_flood_percent}%</li>
           <li>Minor: {minor_flood} - {minor_flood_percent}%</li>
+          <li>Moderate: {moderate_flood} - {moderate_flood_percent}%</li>
           <li>Major: {major_flood} - {major_flood_percent}%</li>
           <li>Severe: {severe_flood} - {severe_flood_percent}%</li>
           <li>Extreme: {extreme_flood} - {extreme_flood_percent}%</li>
