@@ -1,6 +1,6 @@
 # climatereport_zillow
 
-Unlike other real estate sites, Zillow listings do not contain a section on the environmental risk of the property in the listing. This package takes a Zillow url as input and uses it to compile a report on the climate risks of the property in the zillow listing. 
+Unlike other real estate sites, Zillow listings do not contain a section on the environmental risk of the property in the listing. This package takes a Zillow url as input and uses it to compile an HTML report on the climate risks of the property in the zillow listing. This report will automatically open after running the function. The report includes data provided by the First Street Foundation, under the the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License. 
 
 ## Installation
 
@@ -9,10 +9,11 @@ $ pip install climatereport_zillow
 
 ```
 
-## Usage
-
-- TODO
-
+## How to Use
+```bash
+$ from climatereport_zillow import climatereport_zillow
+$ climatereport_zillow.climatereport_zillow("https://www.zillow.com/homedetails/13353-Cavandish-Ln-Moreno-Valley-CA-92553/18008847_zpid/")
+```
 ## Contributing
 
 Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
